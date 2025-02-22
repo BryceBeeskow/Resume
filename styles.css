@@ -1,0 +1,133 @@
+/*
+ I certify that the CSS file I am submitting is all my own work.
+ None of it is copied from any source or any person.
+ Signed: Bryce Beeskow.
+ Date: 1/19/2025
+*/
+/*
+ Author: Bryce Beeskow
+ Date: 1/19/2025
+ Class: CSC135
+ Project: Assignment 2
+ File Name: styles.css
+ Description: Assignment 2 css code creating a resume
+*/
+/* Add references if applicable */
+/* Styling for whole document -- add comments throughout your file */
+
+/*Changing margin, padding, background color, and font family for header*/
+header {
+    margin-top: 0px; 
+    margin-bottom: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #89CFF0;
+    
+    
+}
+
+/*Changing background color border width height, and margin for body*/
+body{
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    color: black;
+    border: 5px solid black;
+    width: 800px;
+    height: 1350px;
+    margin: 100px;
+    
+}
+
+/*changing image style to fit in header*/
+img{
+    float: left;
+    width: 125px;
+    height: 155px;
+    border: 2px solid white;
+}
+
+/*.header-info for h1*/
+.headerinfo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: red;
+    font-size: 15pt;
+    font-style: italic;
+    text-align: center;
+}
+
+/*headerinfo for p changing font size and align center*/
+.headerinfo p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+/*resumesection changing margin, padding border and box shadow*/
+.resumesection {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid silver;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+/*Changing color and size for h2*/
+h2{
+    font-size: 1.8em;
+    color: rgb(9, 9, 226);
+    margin-bottom: 10px;
+}
+
+/*changing h2 style*/
+.resumesection h2{
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin-right: 5%;
+}
+
+/*floating content right*/
+.resumesection p,.resumesection ul {
+    float: right;
+    width: 65%;
+}
+
+/*These 5 are fixing the contents boxes and making it look nicer*/
+.resumesection::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.skills ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
+
+.experience {
+    margin-bottom: 15px;
+}
+
+.experience ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/*chaning footers margin, padding, aligning text, background color,or border for footer*/
+footer{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+    background-color: #89CFF0;
+    border-top: 2px solid red;
+}
